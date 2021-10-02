@@ -1,7 +1,7 @@
-const distanceInKm = prompt("Enter distance in km");
-let distanceInFt = prompt("Enter distance in fut");
+const distanceInKm = prompt("Enter distance in km.");
+let distanceInFt = prompt("Enter distance in fut.");
 
-distanceInFt = (distanceInFt * 0,305) / 1000;
+distanceInFt = (distanceInFt * 0.305) / 1000;
 
 if (distanceInKm > distanceInFt) {
   console.log('Distance in km greater.');
